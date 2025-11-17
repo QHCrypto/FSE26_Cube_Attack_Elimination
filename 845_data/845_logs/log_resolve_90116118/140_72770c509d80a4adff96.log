@@ -1,0 +1,68 @@
+[0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0]
+[-173, -163, 27, 142, 157, -32, 135, -146, -65, 80, -83, 62, 40, -88, -67]
+[[-90], [-116], [-118], [58], [64], [60], [-88], [-114], [-97], [56], [120], [-131], [84], [133], [-99], [-105], [129], [-38], [-146], [-122], [103], [-92], [-4], [-29], [-31], [101], [112], [82], [53], [-55], [-124], [6], [-107]]
+Time cost: 2029.45s
+
+Corresponding equations with respect to key: 
+algebraic relations
+k45+k70*k71+k72
+k19+k44*k45+k46
+k17+k42*k43+k44
+k58
+k64
+k60
+k47+k72*k73+k74
+k21+k46*k47+k48
+k38+k63*k64+k65
+k56
+k15+k40*k41+k42
+k4+k29*k30+k31
+k51+k76*k77+k78
+k2+k27*k28+k29
+k36+k61*k62+k63
+k30+k55*k56+k57
+k6+k31*k32+k33
+k38
+k14*k15+k16+k58
+k13+k38*k39+k40
+k32+k57*k58+k59
+k43+k68*k69+k70
+k4
+k29
+k31
+k34+k59*k60+k61
+k23+k48*k49+k50
+k53+k78*k79
+k53
+k55
+k11+k36*k37+k38
+k6
+k28+k53*k54+k55
+end
+
+Solutions by using autoguess tools: 
+
+Number of algebraic equations: 33
+Number of algebraic variables: 60
+Number of algebraic monomials: 67
+Spectrum of degrees: [1, 2]
+Macaulay matrix was generated in full matrixspace of 693 by 653 sparse matrices over finite field of size 2
+Gaussian elimination was started - 2025-08-16 19:56:12.550260
+#Dependent variables: 626
+#Free variables: 27
+Gaussian elimination was finished after 0.00 seconds
+Writing the results into the temp/macaulay_basis_59d99d159f0dcf0d564e39f0418e5a.txt - 2025-08-16 19:56:12.558248
+Result was written into temp/macaulay_basis_59d99d159f0dcf0d564e39f0418e5a.txt after 0.00 seconds
+Preprocessing phase was started - 2025-08-16 19:56:11.284018
+Preprocessing phase was finished after 1.5434 seconds
+Generating the CP model ...
+CP model was generated after 1.25 seconds
+Solving the CP model with cp-sat ...
+Solving process was finished after 1.27 seconds
+Number of guesses: 29
+Number of known variables in the final state: 668 out of 668
+The following 29 variable(s) are guessed:
+k54, k68, k51, k63, k47, k44, k69, k72, k59, k46, k37, k79, k77, k70, k71, k49, k62, k50, k14, k73, k41, k57, k42, k48, k40, k34, k76, k27, k39
+Number of determined variables: 31.0
+ 
+Whether the equations are all correct: Yes.

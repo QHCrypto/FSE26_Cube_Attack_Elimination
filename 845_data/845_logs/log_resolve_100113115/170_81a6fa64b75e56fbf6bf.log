@@ -1,0 +1,39 @@
+[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[]
+[[-100], [-113], [-115]]
+Time cost: 244.25s
+
+Corresponding equations with respect to key: 
+
+algebraic relations
+k35+k60*k61+k62
+k22+k47*k48+k49
+k20+k45*k46+k47
+end
+Solutions by using autoguess tools: 
+
+Number of algebraic equations: 3
+Number of algebraic variables: 11
+Number of algebraic monomials: 9
+Spectrum of degrees: [2]
+Macaulay matrix was generated in full matrixspace of 3 by 9 sparse matrices over finite field of size 2
+Gaussian elimination was started - 2025-08-17 05:44:34.306343
+#Dependent variables: 3
+#Free variables: 6
+Gaussian elimination was finished after 0.00 seconds
+Writing the results into the temp/macaulay_basis_2a0e4a7f2fcb1d9e238b95aed89813.txt - 2025-08-17 05:44:34.306765
+Result was written into temp/macaulay_basis_2a0e4a7f2fcb1d9e238b95aed89813.txt after 0.00 seconds
+Preprocessing phase was started - 2025-08-17 05:44:33.086127
+Preprocessing phase was finished after 1.4886 seconds
+Number of guessed variables is set to be at most 14
+Generating the CP model ...
+CP model was generated after 0.00 seconds
+Solving the CP model with cp-sat ...
+Solving process was finished after 0.58 seconds
+Number of guesses: 8
+Number of known variables in the final state: 14 out of 14
+The following 8 variable(s) are guessed:
+k45, k46, k48, k60, k61, k35, k22, k20
+Number of determined variables: 3.0
+ 
+Whether the equations are all correct: Yes.

@@ -1,0 +1,45 @@
+[0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1]
+[-81, -78, -79, -80, 70, 71, -74, -71, -75, 74, -154, -77, -68, -69, -157, 20, -152, 162, -26, 18, 164, -162, -24, -153, -110, -161, 44, -158, -95, -44, 15, 16, -28, 121, -100, -160, -11, -108, 46, -125, 119, -145, -25, -87, 130, 172, -50, -36, -168, 170, 45, -2, -93, -19, -155, 100, -128, -170, -117, -143, -10, -89, -115, -3, -171, -23, -85, -127, 35, -138, -130, -21, -12, 132, -141, 13, -119, -49, 3, -156, -167, -113, -13, -9, -98, -140, 14, -51, -39, 5, -14, 145, 137, 134, -70, -112, 127, 163, -41, -142, -27, -52, -35, -45, -61, -53, -59, -43, 28, -63, -149, -38, -151, -97, -96, -173, 142, -54, -169, -34, -163, -150, -56, 124, -159, 55, -111, -29, 30, -109, 2, 29, 144, -33, -84, -55, -65, 80, -6, 38, -114, -137, 120, 122, 81, -103, 92, -42, -131, -64, -101, -62, 118, -148, -118, -135, -116, 131, 97, -88, 88, -66, -67]
+[[-90], [-103], [-105], [-58], [56], [-84], [-6], [-90], [-105], [-103]]
+Time cost: 28930.99s
+
+Corresponding equations with respect to key: 
+algebraic relations
+k45+k70*k71+k72
+k32+k57*k58+k59
+k30+k55*k56+k57
+k58
+k56
+k51+k76*k77+k78
+k6
+k45+k70*k71+k72
+k30+k55*k56+k57
+k32+k57*k58+k59
+end
+
+Solutions by using autoguess tools: 
+
+Number of algebraic equations: 10
+Number of algebraic variables: 16
+Number of algebraic monomials: 15
+Spectrum of degrees: [1, 2]
+Macaulay matrix was generated in full matrixspace of 58 by 55 sparse matrices over finite field of size 2
+Gaussian elimination was started - 2025-08-16 19:40:43.790210
+#Dependent variables: 49
+#Free variables: 6
+Gaussian elimination was finished after 0.00 seconds
+Writing the results into the temp/macaulay_basis_bc44911fd254a8a421567eb6f8e190.txt - 2025-08-16 19:40:43.791032
+Result was written into temp/macaulay_basis_bc44911fd254a8a421567eb6f8e190.txt after 0.00 seconds
+Preprocessing phase was started - 2025-08-16 19:40:42.568131
+Preprocessing phase was finished after 1.4872 seconds
+Generating the CP model ...
+CP model was generated after 0.01 seconds
+Solving the CP model with cp-sat ...
+Solving process was finished after 0.68 seconds
+Number of guesses: 9
+Number of known variables in the final state: 60 out of 60
+The following 9 variable(s) are guessed:
+k55, k71, k45, k78, k70, k30, k59, k76, k77
+Number of determined variables: 7.0
+ 
+Whether the equations are all correct: Yes.

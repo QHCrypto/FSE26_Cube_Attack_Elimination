@@ -1,0 +1,58 @@
+[0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1]
+[152, -81, 74, 75, 76, -79, -75, 71, -74, -71, 70, -80, -164, 66, -69, -152, 164, -26, 18, 20, -24, 151, -162, 23, -28, 155, 156, -11, 15, -128, 158, 16, 17, 48, -121, 121, -161, -130, 98, -37, -132, -87, 141, -145, 106, 169, -174, 100, 46, -172, 44, 108, -85, 166, 123, -141, -36, -21, 8, -95, -44, 168, -12, -104, -89, 89, 13, 0, -93, -106, -155, 111, 45, 11, -134, 1, 28, 136, -49, -136, -9, -127, -156, -167, -140, -51, -7, 145, 3, -16, -39, 110, 68, 12, 59, 43, 137, -41, -142, 33, -165, 147, -126, -59, 161, -27, 61, 50, 127, -159, -34, 149, 51, 167, 171, 41, -96, 142, 148, -38, 30, 2, -29, 95, -54, -33, -31, -65, -55, 80, 144, -83, 38, -42, -6, 135, 146, -103, -64, 105, 65, 60, -131, -114, 120, -101, 133, -133, -88, 88]
+[[-114], [-116], [-118], [-58], [-97], [-90], [64], [56], [103], [84], [-82], [-92], [122], [-55], [54], [107], [6], [-109], [-96], [21], [-118], [-114], [-116]]
+Time cost: 3260.53s
+
+Corresponding equations with respect to key: 
+algebraic relations
+k21+k46*k47+k48
+k19+k44*k45+k46
+k17+k42*k43+k44
+k58
+k38+k63*k64+k65
+k45+k70*k71+k72
+k64
+k56
+k32+k57*k58+k59
+k51+k76*k77+k78
+k53+k78*k79
+k43+k68*k69+k70
+k13+k38*k39+k40
+k55
+k54
+k28+k53*k54+k55
+k6
+k26+k51*k52+k53
+k39+k64*k65+k66
+k21
+k17+k42*k43+k44
+k21+k46*k47+k48
+k19+k44*k45+k46
+end
+Solutions by using autoguess tools: 
+
+
+Number of algebraic equations: 23
+Number of algebraic variables: 40
+Number of algebraic monomials: 42
+Spectrum of degrees: [1, 2]
+Macaulay matrix was generated in full matrixspace of 303 by 290 sparse matrices over finite field of size 2
+Gaussian elimination was started - 2025-08-16 20:11:20.793047
+#Dependent variables: 272
+#Free variables: 18
+Gaussian elimination was finished after 0.00 seconds
+Writing the results into the temp/macaulay_basis_10b23f7f5abb363d9e102e06ac01ce.txt - 2025-08-16 20:11:20.796181
+Result was written into temp/macaulay_basis_10b23f7f5abb363d9e102e06ac01ce.txt after 0.00 seconds
+Preprocessing phase was started - 2025-08-16 20:11:19.510242
+Preprocessing phase was finished after 1.5521 seconds
+Generating the CP model ...
+CP model was generated after 0.18 seconds
+Solving the CP model with cp-sat ...
+Solving process was finished after 0.87 seconds
+Number of guesses: 20
+Number of known variables in the final state: 301 out of 301
+The following 20 variable(s) are guessed:
+k77, k69, k39, k68, k57, k46, k47, k71, k63, k52, k79, k17, k51, k65, k42, k45, k76, k43, k13, k59
+Number of determined variables: 20.0
+ 
+Whether the equations are all correct: Yes.

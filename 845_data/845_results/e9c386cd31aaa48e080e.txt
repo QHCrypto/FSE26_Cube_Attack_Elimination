@@ -1,0 +1,4 @@
+[(30, 10062.05, 'No')]
+Equation solving time is 10062.05
+Enumeration complexity: None
+Wether success: 0

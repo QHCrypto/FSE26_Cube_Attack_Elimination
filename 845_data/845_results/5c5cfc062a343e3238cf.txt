@@ -1,0 +1,4 @@
+[]
+Equation solving time is None
+Enumeration complexity: None
+Wether success: 0

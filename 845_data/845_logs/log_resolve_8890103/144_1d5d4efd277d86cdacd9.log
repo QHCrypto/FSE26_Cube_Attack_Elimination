@@ -1,0 +1,64 @@
+[0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1]
+[-154, 79, -152, -76, -77, 76, -79, -75, 71, -74, 69, -72, 78, 66, 67, -20, 24, -166, -22, -158, -164, -153, 22, -157, -123, 108, -161, 160, -25, -11, 17, -17, 172, -50, -87, 26, -125, -121, 0, 44, -100, -117, -172, -132, -47, -18, -44, 102, -128, -160, -89, -3, 46, 93, 143, -102, -23, -10, -37, -108, 166, 169, -155, -138, -119, -85, -143, 113, 104, 34, -170, 89, 125, -93, -12, 128, -21, 138, -9, 3, -70, 25, 5, -134, -49, -51, -45, -16, -52, 12, 37, 145, 51, -15, -141, 171, -136, -167, -113, 96, 137, -41, -61, -129, -35, -112, 11, -59, -142, -38, -165, -43, 61, -151, -149, 95, 52, -30, -34, -163, -159, 148, 2, -55, 30, 167, 29, 31, -29, -6, 94, -82, -83, -65, -114, -42, 38, 144, -122, -137, -148, -120, 62, 97, 64, 60]
+[[-88], [-90], [-103], [-58], [-65], [56], [86], [-131], [-114], [116], [105], [-133], [-101], [-129], [-122], [99], [-92], [82], [-84], [-109], [-107], [-124], [54], [142], [-55], [-6], [-154], [-88], [-90]]
+Time cost: 21724.43s
+
+Corresponding equations with respect to key: 
+algebraic relations
+k47+k72*k73+k74
+k45+k70*k71+k72
+k32+k57*k58+k59
+k58
+k65
+k56
+k49+k74*k75+k76
+k4+k29*k30+k31
+k21+k46*k47+k48
+k19+k44*k45+k46
+k30+k55*k56+k57
+k2+k27*k28+k29
+k34+k59*k60+k61
+k6+k31*k32+k33
+k13+k38*k39+k40
+k36+k61*k62+k63
+k43+k68*k69+k70
+k53+k78*k79
+k51+k76*k77+k78
+k26+k51*k52+k53
+k28+k53*k54+k55
+k11+k36*k37+k38
+k54
+k18*k19+k20+k62
+k55
+k6
+k64*k65+k51+k76*k77+k78
+k47+k72*k73+k74
+k45+k70*k71+k72
+end
+
+Solutions by using autoguess tools: 
+
+Number of algebraic equations: 29
+Number of algebraic variables: 57
+Number of algebraic monomials: 63
+Spectrum of degrees: [1, 2]
+Macaulay matrix was generated in full matrixspace of 371 by 380 sparse matrices over finite field of size 2
+Gaussian elimination was started - 2025-08-16 19:30:19.337388
+#Dependent variables: 347
+#Free variables: 33
+Gaussian elimination was finished after 0.00 seconds
+Writing the results into the temp/macaulay_basis_de381614570ee44c87c6bf57244777.txt - 2025-08-16 19:30:19.341463
+Result was written into temp/macaulay_basis_de381614570ee44c87c6bf57244777.txt after 0.00 seconds
+Preprocessing phase was started - 2025-08-16 19:30:18.014152
+Preprocessing phase was finished after 1.5973 seconds
+Generating the CP model ...
+CP model was generated after 0.38 seconds
+Solving the CP model with cp-sat ...
+Solving process was finished after 1.11 seconds
+Number of guesses: 32
+Number of known variables in the final state: 395 out of 395
+The following 32 variable(s) are guessed:
+k68, k76, k77, k79, k62, k70, k61, k40, k44, k52, k21, k39, k37, k73, k18, k57, k36, k78, k75, k31, k71, k29, k27, k64, k72, k69, k38, k60, k46, k47, k45, k32
+Number of determined variables: 25.0
+ 
+Whether the equations are all correct: Yes.

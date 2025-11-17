@@ -1,0 +1,4 @@
+[(31, 12321.49, 'Yes')]
+Equation solving time is 12321.49
+Enumeration complexity: 2^49.0
+Wether success: 1
