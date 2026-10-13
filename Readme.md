@@ -51,6 +51,8 @@ $ ./a.out
 
   The substituted polynomial has 4,162,761,127 unmerged terms (about 185 GB).
   The substitution tool can report the term count without writing the polynomial.
+  A multithreaded balance test is included: 49,981 of 100,000 sampled weak keys
+  evaluate to 1 (0.49981). The archive includes the sample data and seed.
 
   Extract the archive and follow `submission_855/README.md` to compile and run.
 
