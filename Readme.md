@@ -10,6 +10,7 @@ A repository for the paper *Cube Attacks with Elimination Strategy: Key Recovery
   ```bash
   pip3 install python-sat
   pip3 install pycryptosat==5.11.21
+  ```
 
 ## Superpoly Recovery
 
@@ -41,12 +42,17 @@ $ ./a.out
 - **`845_data`**  
   Contains equation solving codes and results for all 9 weak key spaces
 
-- **`855_con_spoly`**  
-  Stores a conditional superpoly at 855-round. Here, the polynomial we present are in terms of z_{83}. We employed variable substitution to express it as a polynomial in terms of k, their expressions excessively complex, requiring a storage space of 69 GB. Therefore, we did not upload them. However, we have uploaded the code for performing variable substitution operations, which can be found in the folder 'conditional_superpoly_recovery'.
- 
-  To verify the balance:
-  $ g++ -o a.out calculate_balance.cpp
-  $ ./a.out
+- **[855_con_spoly.zip](855_con_spoly.zip)**
+
+  Includes automatic recovery of the 855-round conditional superpoly for cube I4,
+  the recovered polynomial in round-83 auxiliary variables (1,233,115 terms),
+  unmerged substitution into key bits k0-k79, and CUDA cube-sum verification
+  with 50 recorded keys.
+
+  The substituted polynomial has 4,162,761,127 unmerged terms (about 185 GB).
+  The substitution tool can report the term count without writing the polynomial.
+
+  Extract the archive and follow `submission_855/README.md` to compile and run.
 
 - **`comparison`** 
   Stores superpolys recoverd by 3 different superpoly recovery methods. 
